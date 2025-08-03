@@ -4,7 +4,7 @@
   "description": "Cult management system for Pathfinder 2e campaigns inside Foundry VTT.",
   "type": "module",
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && node scripts/copy-module-json.mjs",
     "dev": "vite",
     "preview": "vite preview"
   },
