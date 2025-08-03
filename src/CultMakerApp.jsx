@@ -1,4 +1,6 @@
-/* ---------- Context ---------- */
+/* ---------- CultMakerApp ---------- */
+import React, { useState, createContext, useContext } from "react";
+
 const defaultCultState = {
   scores: { F: 10, Z: 10, O: 10, H: 10 },
   pools: { ZP: 0, OS: 0, RP: 0, FL: 10, SS: 0 },
