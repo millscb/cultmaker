@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* ---------- CultMakerApp ---------- */
 import React, { useState, createContext, useContext } from "react";
 
@@ -99,7 +98,3 @@ export default function CultMakerApp() {
     </CultContext.Provider>
   );
 }
-=======
-/* ===== src/CultMakerApp.jsx ===== */
-import React, { useState, createContext, useContext } from "react";
->>>>>>> main
