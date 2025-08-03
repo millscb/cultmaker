@@ -1,0 +1,17 @@
+/* ===== module.json ===== */
+{
+  "name": "cultmaker",
+  "title": "CultMaker",
+  "description": "Cult management system for Pathfinder 2e campaigns inside Foundry VTT.",
+  "version": "0.1.0",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
+  "authors": [{ "name": "Christopher Mills" }],
+  "url": "https://github.com/your‑github/cultmaker",
+  "manifest": "https://raw.githubusercontent.com/your‑github/cultmaker/main/module.json",
+  "download": "https://github.com/your‑github/cultmaker/releases/latest/download/cultmaker.zip",
+  "esmodules": ["dist/cultmaker.js"],
+  "styles": ["styles/cultmaker.css"],
+  "packs": [],
+  "socket": true
+}
