@@ -1,0 +1,4 @@
+/* ===== styles.css ===== */
+body.actor-sheet #cultmaker-root {
+  font-family: var(--font-primary);
+}
