@@ -1,6 +1,6 @@
 {
   "name": "cultmaker",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Cult management system for Pathfinder 2e campaigns inside Foundry VTT.",
   "type": "module",
   "scripts": {
