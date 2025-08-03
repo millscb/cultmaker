@@ -7,14 +7,11 @@ export default defineConfig({
     outDir: "dist",
     emptyOutDir: true,
     lib: {
-      entry: "./src/index.js",
+      entry: "./hooks/foundry.js",
       name: "cultmaker",
       fileName: () => "cultmaker.js",
-      formats: ["es"]
+      formats: ["es"],
     },
-    rollupOptions: {
-      external: ["react", "react-dom", "foundry-vtt"],
-    }
   },
-  plugins: [react()]
+  plugins: [react()],
 });

@@ -1,4 +1,6 @@
 /* ---- Foundry Hooks ---- */
+import { MODULE_ID, CultMakerWindow } from "../src/index.jsx";
+
 Hooks.once("init", () => {
   console.log("CultMaker | Initialising …");
   game.settings.register(MODULE_ID, "state", {
