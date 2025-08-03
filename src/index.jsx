@@ -3,6 +3,8 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import CultMakerApp from "./CultMakerApp.jsx";
 
+
+
 export const MODULE_ID = "cultmaker";
 
 export class CultMakerWindow extends Application {
