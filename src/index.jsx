@@ -1,12 +1,11 @@
 /* ===== src/index.js ===== */
-import "./styles.css";
 import React from "react";
 import { createRoot } from "react-dom/client";
-import CultMakerApp from "./CultMakerApp";
+import CultMakerApp from "./CultMakerApp.jsx";
 
-const MODULE_ID = "cultmaker";
+export const MODULE_ID = "cultmaker";
 
-class CultMakerWindow extends Application {
+export class CultMakerWindow extends Application {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       id: "cultmaker-window",
