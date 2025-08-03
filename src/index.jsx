@@ -1,12 +1,18 @@
 /* ===== src/index.js ===== */
+<<<<<<< HEAD:src/index.jsx
+import React from "react";
+import { createRoot } from "react-dom/client";
+import CultMakerApp from "./CultMakerApp.jsx";
+=======
 import "..sytles/app.css";
 import React from "react";
 import { createRoot } from "react-dom/client";
 import CultMakerApp from "../src/CultMakerApp";
+>>>>>>> main:src/index.js
 
-const MODULE_ID = "cultmaker";
+export const MODULE_ID = "cultmaker";
 
-class CultMakerWindow extends Application {
+export class CultMakerWindow extends Application {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       id: "cultmaker-window",
