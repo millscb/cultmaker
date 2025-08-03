@@ -1,8 +1,8 @@
 /* ===== src/index.js ===== */
-import "./styles.css";
+import "..sytles/app.css";
 import React from "react";
 import { createRoot } from "react-dom/client";
-import CultMakerApp from "./CultMakerApp";
+import CultMakerApp from "../src/CultMakerApp";
 
 const MODULE_ID = "cultmaker";
 
