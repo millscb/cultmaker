@@ -1,14 +1,9 @@
 /* ===== src/index.js ===== */
-<<<<<<< HEAD:src/index.jsx
 import React from "react";
 import { createRoot } from "react-dom/client";
 import CultMakerApp from "./CultMakerApp.jsx";
-=======
-import "..sytles/app.css";
-import React from "react";
-import { createRoot } from "react-dom/client";
-import CultMakerApp from "../src/CultMakerApp";
->>>>>>> main:src/index.js
+
+
 
 export const MODULE_ID = "cultmaker";
 
